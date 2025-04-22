@@ -55,7 +55,7 @@ header{
     gap: 10px;
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 950px) {
     header .menuM{
       flex-direction: column;
       display: block;

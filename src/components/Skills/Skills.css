@@ -1,0 +1,28 @@
+
+/* Skills */
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  #skills h2{
+    font-size: 4rem;
+    color: #4B1A72;
+  }
+  
+  #skills .skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+  }
+  
+  #skills img{
+    width: 100px;
+  }

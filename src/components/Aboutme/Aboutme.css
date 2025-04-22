@@ -1,7 +1,8 @@
 
 /* About Me */
 #aboutme{
-    padding: 85px;
+    /* padding: 85px; */
+    padding: 6%;
     color: #4B1A72;
   }
   
@@ -13,4 +14,18 @@
   #aboutme p{
     font-size: 2.5rem;
     max-width: 813px;
+  }
+
+  
+  @media (max-width: 900px) {
+
+    #aboutme{
+      text-align: center;
+      /* padding: ; */
+    }
+
+    #aboutme p{
+      font-size: 1rem;
+    }
+
   }

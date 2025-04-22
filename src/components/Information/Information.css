@@ -1,0 +1,38 @@
+/* Information */
+
+#information{
+    background-color: #4B1A72;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  #information div{
+    max-width: 700px;
+  }
+  
+  #information .title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  #information h2{
+    font-size: 4rem;
+    text-underline-offset: 13px;
+    cursor: pointer;
+  }
+  
+  #information .select{
+    text-decoration: underline;
+  }
+  
+  #information .noselect{
+    color: #E371FF;
+  }

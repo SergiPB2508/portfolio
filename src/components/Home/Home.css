@@ -6,8 +6,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 135px;
+    flex-wrap: wrap;
   }
-  
+
   #home div{
     max-width: 500px;
   }
@@ -23,11 +24,31 @@
   }
   
   #home .profile{
-    background-image: url("../../img/profile.jpg");
-    width: 450px;
+    background-image: url("assets/img/profile.jpg");
+    min-width: 450px;
     height: 450px;
     background-size: cover;
     background-position-x: 50%;
     border-radius: 100%;
   }
   
+  @media (max-width: 900px) {
+
+    #home{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 50px;
+    }
+
+    #home .text{
+      order: 2;
+    }
+
+    #home .profile{
+      order: 1;
+      min-width: 275px;
+      height: 275px;
+    }
+
+  }

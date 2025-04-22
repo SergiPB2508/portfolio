@@ -12,7 +12,7 @@ const Header = () => {
           <li><a href="">Projects</a></li>
         </ul>
         <div class="menuM">
-          <img src="src/img/menu.png" alt="menu">
+          <img src="assets/icon/menu.png" alt="menu">
           <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About me</a></li>
