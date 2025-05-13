@@ -1,9 +1,10 @@
 import "./Header.css";
+import data from "../../data/data";
 
 const Header = () => {
     return `
       <header>
-        <p>Sergi Pont</p>
+        <p>${data.name}</p>
         <ul class="menu">
           <li><a href="">Home</a></li>
           <li><a href="">About me</a></li>

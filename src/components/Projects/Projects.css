@@ -22,3 +22,25 @@
     overflow-y: hidden;
   }
   
+  @media (max-width: 900px) {
+
+    #projects{
+      text-align: center;
+      padding: 45px 10px;
+    }
+
+    #projects h2{
+      font-size: 2.5rem;
+    }
+    
+    #projects > p{
+      font-size: 1.5rem;
+    }
+
+    #projects .projects{
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  

@@ -26,3 +26,18 @@
   #skills img{
     width: 100px;
   }
+
+  
+  @media (max-width: 900px) {
+
+    #skills .skills{
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+    
+    #skills img{
+      width: 75px;
+    }
+  
+  }

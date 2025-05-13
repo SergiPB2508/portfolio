@@ -36,3 +36,16 @@
   #information .noselect{
     color: #E371FF;
   }
+
+  
+  @media (max-width: 850px) {
+    
+    #information{
+      font-size: 1.25rem;
+    }
+
+    #information h2{
+      font-size: 1.5rem;
+    }
+
+  }

@@ -1,13 +1,15 @@
 import "./Projects.css"
 import Card from "../Card/Card"
+import data from "../../data/data";
 
 
 const addProjects = () => {
     
+
     let projects = "";
 
-    for (let i = 0; i < 4; i++) {
-        projects += Card();
+    for (let i = 0; i < data.projects.length; i++) {
+        projects += Card(data.projects[i]);
     }
     
     return projects;

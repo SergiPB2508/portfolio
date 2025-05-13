@@ -1,12 +1,12 @@
 import "./Card.css"
 
-const Card = () => {
+const Card = (project) => {
     return `
             <div class="card">
-              <img src="assets/img/project1.png" alt="">
-              <p class="project">App Experiences</p>
-              <p>A travel app that simplifies planning, bookings, and alerts for a hassle-free experience.</p>
-              <a href="">View App</a>
+              <img src="${project.img}" alt="">
+              <p class="project">${project.title}</p>
+              <p>${project.description}</p>
+              <a href="${project.link}">View App</a>
             </div>`;
 }
 

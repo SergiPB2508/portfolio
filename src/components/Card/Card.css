@@ -12,6 +12,7 @@
     flex-direction: column;
     padding: 20px;
     flex: 0 0 auto;
+    text-align: start;
   }
   
   .card > *{
@@ -37,3 +38,12 @@
     border-radius: 10px;
     text-underline-offset: 4px;
   }
+  
+  @media (max-width: 900px) {
+
+    .card{
+      width: 295px;
+    }
+
+  }
+  

@@ -1,6 +1,5 @@
 import "./Information.css"
-import experience from "../../data/experience"
-import studies from "../../data/studies"
+import data from "../../data/data"
 
 const Information = (info) => {
 
@@ -25,10 +24,10 @@ export default Information;
 
 const printInfo = (select) => {
   let info = '';
-  let arrayInfo = experience;
+  let arrayInfo = data.experience;
 
   if (select == "studies") {
-    arrayInfo = studies;
+    arrayInfo = data.studies;
   }
 
   for (let i = 0; i < arrayInfo.length; i++) {

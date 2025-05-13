@@ -1,22 +1,30 @@
 import "./Contact.css"
 
 const Contact = () => {
+    addEventListener("click", (e) => {
+      console.log(e.target);
+      
+    })
     return `
-        <section id="contact">
+        <form id="contact">
           <div>
             <p>Let´s discuss on comething <span>cool</span> together</p>
             <p id="interes">I’m interested in ...</p>
             <div class="radius">
-              <input type="radio" value="ecommmerce" id="ecommmerce" name="interes">
+              <input type="radio" value="ecommmerce" id="ecommmerce" name="interes" checked>
               <label for="ecommmerce" class="radio-btn">Ecommerce Website</label>
+              
               <input type="radio" value="database" id="database" name="interes">
               <label for="database" class="radio-btn">Data Base</label>
+
               <input type="radio" value="landing" id="landing" name="interes">
               <label for="landing" class="radio-btn">Landing Page</label>
+
               <input type="radio" value="blog" id="blog" name="interes">
               <label for="blog" class="radio-btn">Blog Website</label>
-              <input type="radio" value="app" id="app" name="interes">
-              <label for="app" class="radio-btn">App</label>
+
+              <input type="radio" value="app" id="app1" name="interes">
+              <label for="app1" class="radio-btn">App</label>
             </div>
           </div>
           <div class="form">
@@ -29,7 +37,7 @@ const Contact = () => {
              <a href="https://github.com/SergiPB2508" target="_blank"><img src="assets/icon/github_2.png" alt="github" width="39"></a>
             </div>
           </div>
-        </section>`;
+        </form>`;
 }
 
 export default Contact;
